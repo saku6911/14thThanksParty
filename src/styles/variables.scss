@@ -1,0 +1,50 @@
+@use "sass:color";
+
+// colors
+$colorMain: #133b63;
+$colorMainLight1: #1b4168;
+$colorMainLight2: #395b7c;
+$colorMainLight3: #ecf5ff;
+$colorMainCV: #2f74b9;
+$colorBase: #fff;
+$colorBaseDark1: #e0e0e0;
+$colorBaseDark2: #666;
+$colorBaseDark3: #302f2f;
+$colorPink: #f4b3c2;
+$colorRed: #f83e3e;
+$colorOrange: #ffbe00;
+$colorSkyblue: #a0d8ef;
+$colorGray: #3b3b3b;
+$colorLink: #1e90ff;
+$colorGraphnNavy: #69c;
+$colorGraphBlue: #52bbd1;
+$colorGraphEmerald: #71d5cb;
+$colorGraphGreen: #c0c743;
+$colorGraphYellow: #efb838;
+$colorGraphOrange: #f58c3f;
+$colorGraphRed: #ef858c;
+$colorGraphPink: #ffb6bc;
+$colorGraphGray: #ccc;
+$colorTopText: #cbd3dc;
+
+// hover
+$hover: rgba(
+	$color: $colorBase,
+	$alpha: 10%,
+);
+
+// Gradient
+$gradientMain: linear-gradient(
+	135deg,
+	#fceaba 0%,
+	#fae7ea 51.65%,
+	#e2f1f8 100%
+);
+
+// size
+$pcMinWidth: 768px;
+$pcMaxWidth: 1280px;
+$footerHeight: 808px;
+
+// font-weight
+$fontWeightBold: 700;

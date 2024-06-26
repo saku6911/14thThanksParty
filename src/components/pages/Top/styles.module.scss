@@ -1,0 +1,36 @@
+.main{
+    height: 100vh;
+    padding: 6.25rem;
+    background-color: #133b63;
+}
+
+.form{
+    display: grid;
+    justify-content: center;
+    padding: 9.25rem;
+    background-color: #FFF;
+    gap:3.1rem;
+    border-radius: 2rem;
+}
+
+.input{
+    margin:0 auto;
+    border: 2px solid #EAEBEC;
+    width: 12.5rem;
+    padding: 0.2rem 0;
+}
+
+.button{
+    background-color: #fc5362;
+    border: 1px solid #fc5362;
+    color: #fff;
+    width: 12.5rem;
+    margin:0 auto;
+    padding: 0.5rem 2rem;
+}
+
+.button:hover{
+    color: #fc5362;
+    background-color:#FFF;
+    border: 1px solid #fc5362;
+}
