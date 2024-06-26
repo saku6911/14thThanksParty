@@ -1,18 +1,20 @@
 .main{
     height: 100vh;
-    padding: 6.25rem;
+    padding: 1rem;
     background-color: #133b63;
 }
 
 .form{
     display: grid;
     justify-content: center;
-    padding: 9.25rem;
+    padding: 5rem 2rem;
     background-color: #FFF;
     gap:3.1rem;
     border-radius: 2rem;
 }
-
+.title{
+    font-size:1rem;
+}
 .input{
     margin:0 auto;
     border: 2px solid #EAEBEC;

@@ -36,7 +36,7 @@ export const Home: FC = () => {
   return (
     <main className={css.main}>
       <form onSubmit={handleSubmit} className={css.form}>
-        <h1>{quizQuestion.question}</h1>
+        <h1 className={css.title}>{quizQuestion.question}</h1>
         <input
           className={css.input}
           type="text"
