@@ -3,4 +3,5 @@ export const button: string;
 export const form: string;
 export const input: string;
 export const main: string;
+export const title: string;
 
