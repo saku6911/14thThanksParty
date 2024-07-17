@@ -16,7 +16,7 @@ export const Success: FC = () => {
     className={css.img}
 	/>
       <p className={css.text}>正解です！おめでとうございます！</p>
-      <p className={css.text}>キーホルダーは本社の一番右の本棚、下段の棚（扉付き）一段目、パンデミックの左隣にあります！</p>
+      <p className={css.text}>キーホルダーは本社の執務室にある一番右の本棚、下段の棚（扉付き）一段目、パンデミックの左隣にあります！</p>
       </div>
     </main>
   );
